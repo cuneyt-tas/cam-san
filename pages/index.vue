@@ -1,73 +1,51 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        cam-san
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+
+	<main class="container">
+
+		<figure class="headline">
+
+			<img src="~/assets/image/cam-san-dukkan-ici.jpg" alt="Dükkân İç Görünüm">
+
+		</figure>
+
+		<div class="content">
+
+			<CallToAction actionTitle="Cam-San Ticaret Dayı Web Sitesine Hoşgeldiniz." buttonLabel="Bize Buradan Ulaşabilirsiniz" buttonLink="/iletisim" />
+
+			<div class="boxes">
+
+				<div class="box">
+
+					<h2>Camcılıkta Yarım Asırlık Tecrübe</h2>
+					<p>Cam-San, 30 yılı aşkın birikimiyle Çorum'un en eski ve tecrübeli cam alım satım yapan ticari kurumlarından biridir...</p>
+
+				</div>
+
+				<div class="box">
+
+					<h2>Birbirinden Şık Tasarımlı Çerçeveler</h2>
+					<p>Resimleriniz, fotoğraflarınız ve kişisel hobi çalışmalarınızın tamamlayıcı aksesuarı olan çerçevelerimiz...</p>
+
+				</div>
+
+				<div class="box">
+
+					<h2>Çorum’da Ayna, Cam-San’dan Alınır</h2>
+					<p>Cam-San, 30 yılı aşkın birikimiyle Çorum'un en eski ve tecrübeli cam alım satım yapan ticari kurumlarından biridir...</p>
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+	</main>
+
 </template>
 
-<script>
-export default {}
-</script>
+<style lang="scss">
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

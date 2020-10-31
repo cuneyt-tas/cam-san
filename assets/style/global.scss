@@ -1,0 +1,62 @@
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+				* ------- Fonts ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lobster&display=swap');
+
+// Font Awesome
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- General Settings ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+html,
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: $dark-grey;
+}
+
+body {
+	color: $black;
+	font-family: 'Arimo', sans-serif;
+	// font-family: 'Lobster', cursive;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+
+	* {
+		box-sizing: border-box;
+	}
+
+}
+
+#page {
+	overflow-x: hidden;
+	position: relative;
+}
+
+.container {
+	max-width: 1140px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: inherit;
+	transition: 0.3s;
+
+	&:hover {
+		color: $red;
+	}
+
+}
