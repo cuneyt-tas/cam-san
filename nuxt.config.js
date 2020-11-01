@@ -11,7 +11,9 @@ export default {
 		{ hid: 'description', name: 'description', content: '' }
 	],
 	link: [
-		{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+		{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+		{ href: 'https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lobster&display=swap', rel: 'stylesheet' },
+		{ href: 'https://use.fontawesome.com/releases/v5.15.1/css/all.css', rel: 'stylesheet' }
 	]
 	},
 
