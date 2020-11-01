@@ -16,13 +16,13 @@
 
 			<div class="social-media">
 
-				<a href="#" target="_blank" title="Cam-San Facebook Sayfası">
+				<a href="#" class="facebook" target="_blank" title="Cam-San Facebook Sayfası">
 
 					<i class="fab fa-facebook-f"></i>
 
 				</a>
 
-				<a href="#" target="_blank" title="Cam-San Twitter Sayfası">
+				<a href="#" class="twitter" target="_blank" title="Cam-San Twitter Sayfası">
 
 					<i class="fab fa-twitter"></i>
 
@@ -47,8 +47,52 @@
 <style lang="scss">
 
 	header {
+		margin-top: 50px;
+		box-shadow: 0 0 5px #aaa;
 
+		.top-header {
+			background-color: $white;
+			border-top: 7px solid $red;
+			padding: 50px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 
+			.social-media {
+
+				a {
+					color: $red;
+					font-size: 40px;
+
+					&:not(:last-child) {
+						margin-right: 40px;
+					}
+
+					&:hover {
+						color: $black;
+					}
+
+					&.facebook {
+
+						&:hover {
+							color: #3b5998;
+						}
+
+					}
+
+					&.twitter {
+
+						&:hover {
+							color: #5ea9dd;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
 
 	}
 

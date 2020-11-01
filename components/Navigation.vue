@@ -13,6 +13,28 @@
 
 <style lang="scss">
 
+	nav {
+		background-color: $red;
+		padding: 10px 20px;
 
+		a {
+			font-size: 15px;
+			line-height: 25px;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: $white;
+
+			&:hover {
+				text-decoration: underline;
+				color: $white;
+			}
+
+			&:not(:last-child) {
+				margin-right: 30px;
+			}
+
+		}
+
+	}
 
 </style>
